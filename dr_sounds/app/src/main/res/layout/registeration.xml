@@ -36,6 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Doctor"
+            android:id="@+id/doctor"
             android:textSize="30dp"
             android:layout_marginTop="30dp"
             tools:layout_editor_absoluteX="63dp"
@@ -48,6 +49,7 @@
             android:layout_height="wrap_content"
             android:text="Patient"
             android:textSize="30dp"
+            android:id="@+id/patient"
             android:layout_marginTop="30dp"
             tools:layout_editor_absoluteX="99dp"
             android:textColor="@color/sec_text"
@@ -83,11 +85,12 @@
         app:layout_constraintTop_toBottomOf="@+id/usernm_creation" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="200dp"
         android:text="Register"
+        android:onClick="register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"

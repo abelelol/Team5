@@ -2,7 +2,6 @@ package com.example.dr_sounds;
 import android.content.Intent;
 import android.graphics.Paint;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -23,7 +22,7 @@ public class ChooseUser extends AppCompatActivity {
     }
 
     public void Doctor(View v) {
-        Intent intent = new Intent(ChooseUser.this, MainActivity.class);
+        Intent intent = new Intent(ChooseUser.this, InitLogin.class);
         startActivity(intent);
     }
 

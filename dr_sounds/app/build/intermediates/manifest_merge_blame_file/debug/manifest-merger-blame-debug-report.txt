@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\Abele\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.1.0] C:\Users\Abele\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:7:9-43
@@ -44,8 +44,8 @@
 27        </activity>
 28        <activity
 28-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:19:9-22:20
-29            android:name="com.example.dr_sounds.MainActivity"
-29-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:20:13-41
+29            android:name="com.example.dr_sounds.InitLogin"
+29-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:20:13-38
 30            android:label="Doctor_Screen" >
 30-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:21:13-42
 31        </activity>

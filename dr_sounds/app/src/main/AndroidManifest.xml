@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".InitLogin"
             android:label="Doctor_Screen">
         </activity>
         <activity

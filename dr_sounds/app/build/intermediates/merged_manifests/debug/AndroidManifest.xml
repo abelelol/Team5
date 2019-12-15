@@ -26,7 +26,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.dr_sounds.MainActivity"
+            android:name="com.example.dr_sounds.InitLogin"
             android:label="Doctor_Screen" >
         </activity>
         <activity
