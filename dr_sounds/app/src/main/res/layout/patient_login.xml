@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Patient_login">
+
+
+    <EditText
+        android:id="@+id/PUsername"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/PPassword"
+        app:layout_constraintEnd_toEndOf="@+id/PPassword"
+        app:layout_constraintStart_toStartOf="@+id/PPassword"
+        app:layout_constraintTop_toBottomOf="@+id/Pchecker" />
+
+    <EditText
+        android:id="@+id/PPassword"
+        android:layout_width="151dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="71dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/Pbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PUsername" />
+
+    <TextView
+        android:id="@+id/Pchecker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginBottom="72dp"
+        android:text="yooooooo"
+        android:textColor="#ff0000"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/PUsername"
+        app:layout_constraintStart_toStartOf="@+id/PUsername"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Pbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="232dp"
+        android:onClick="pinitlogin"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/PPassword"
+        app:layout_constraintTop_toBottomOf="@+id/PPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

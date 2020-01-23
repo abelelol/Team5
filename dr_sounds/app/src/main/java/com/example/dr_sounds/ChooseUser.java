@@ -22,7 +22,12 @@ public class ChooseUser extends AppCompatActivity {
     }
 
     public void Doctor(View v) {
-        Intent intent = new Intent(ChooseUser.this, InitLogin.class);
+        Intent intent = new Intent(ChooseUser.this, DoctorInitLogin.class);
+        startActivity(intent);
+    }
+
+    public void Patient(View v) {
+        Intent intent = new Intent(ChooseUser.this, Patient_login.class);
         startActivity(intent);
     }
 

@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">dr_sounds</string>
+    <string name="app_name">DR Sounds</string>
+    <string name="patient1_medication"> - Take 2 pills of Alprazolam when you first wake up\n
+        - Also take 1 pill of Ydrocodone or 2 pills of acetaminophen to go along with Alprazolam\n
+        - DO NOT TAKE YDROCODONE AND ACETAMINOPHEN TOGETHER\n
+        - ONLY TAKE THIS PILL COMBINATION ONCE EVERY 24 HOURS</string>
+    <string name="patient1_previousprescr"> 01/01/2019 - 03/31/2019.pdf\n
+        04/01/2019 - 06/30/2019.pdf\n
+        07/01/2019 - 09/30/2019.pdf\n
+        10/01/2019 - 12/31/2019.pdf</string>
+
+
 </resources>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.dr_sounds">
+
 
     <application
         android:allowBackup="true"
@@ -17,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".InitLogin"
+            android:name=".DoctorInitLogin"
             android:label="Doctor_Screen">
         </activity>
         <activity
@@ -47,6 +49,10 @@
         <activity android:name=".EndScreen"
             android:label="End Screen">
         </activity>
+        <activity android:name=".PatientDashboard"
+            android:label="User DashBoard">
+        </activity>
+
     </application>
 
 </manifest>

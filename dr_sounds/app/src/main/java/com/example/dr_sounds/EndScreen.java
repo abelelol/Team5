@@ -21,7 +21,7 @@ public class EndScreen extends AppCompatActivity {
         done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent endScreen = new Intent(EndScreen.this, InitLogin.class);
+                Intent endScreen = new Intent(EndScreen.this, DoctorInitLogin.class);
                 startActivity(endScreen);
             }
         });

@@ -29,4 +29,9 @@ public class UserSelection extends AppCompatActivity {
         Intent intent = new Intent(UserSelection.this, AddFamilyMem.class);
         startActivity(intent);
     }
+
+    public void currentuser(View v){
+        Intent intent = new Intent(UserSelection.this, PatientDashboard.class);
+        startActivity(intent);
+    }
 }

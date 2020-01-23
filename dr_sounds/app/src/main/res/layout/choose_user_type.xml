@@ -54,10 +54,11 @@
         android:layout_height="110dp"
         android:layout_marginBottom="160dp"
         android:src="@drawable/patient_logo"
-        android:onClick="Doctor"
+        android:onClick="Patient"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

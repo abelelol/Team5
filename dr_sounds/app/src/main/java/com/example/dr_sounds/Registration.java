@@ -16,6 +16,7 @@ public class Registration extends AppCompatActivity {
     RadioButton doctor, patient;
     EditText username, password;
     Database db;
+    String type;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,14 +26,24 @@ public class Registration extends AppCompatActivity {
         patient = findViewById(R.id.patient);
         username = findViewById(R.id.usernm_creation);
         password = findViewById(R.id.passwrd_creation);
+
     }
 
     public void register(View v){
+        type = "doctor";
         String user = username.getText().toString().trim();
         String passwrd = password.getText().toString().trim();
+        if(doctor.isSelected())
+            type = "doctor";
+        else
+            type = "patient";
         db.addUser(user,passwrd);
-        Toast.makeText(Registration.this,"Account has been created", Toast.LENGTH_SHORT).show();
+        if(type.equals("doctor"))
+            Toast.makeText(Registration.this,"Doctor Account has been created", Toast.LENGTH_SHORT).show();
+        else
+            Toast.makeText(Registration.this,"Patient Account has been created", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(Registration.this, ChooseUser.class);
+        intent.putExtra("type",type);
         startActivity(intent);
     }
 
