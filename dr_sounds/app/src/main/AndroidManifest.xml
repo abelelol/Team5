@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.dr_sounds">
-
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -38,8 +38,7 @@
             android:label="add family">
         </activity>
         <activity android:name=".AudioSearch"
-            android:label="audio page"
-            >
+            android:label="audio page">
         </activity>
         <activity android:name=".Patient_login"
             android:label="patient page"></activity>
@@ -51,6 +50,9 @@
         </activity>
         <activity android:name=".PatientDashboard"
             android:label="User DashBoard">
+        </activity>
+        <activity android:name=".AudioRecord"
+            android:label="Audio Recording">
         </activity>
 
     </application>
