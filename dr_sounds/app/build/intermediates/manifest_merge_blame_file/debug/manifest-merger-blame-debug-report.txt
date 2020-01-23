@@ -29,99 +29,98 @@
 19-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
 20-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme" >
-22-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:13:9-40
-23        <activity android:name="com.example.dr_sounds.ChooseUser" >
-23-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:14:9-20:20
-23-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:14:19-45
-24            <intent-filter>
-24-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:15:13-19:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:16:17-69
-25-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:16:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:18:17-77
-27-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:18:27-74
-28            </intent-filter>
-29        </activity>
-30        <activity
-30-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:21:9-24:20
-31            android:name="com.example.dr_sounds.DoctorInitLogin"
-31-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:22:13-44
-32            android:label="Doctor_Screen" >
-32-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:23:13-42
-33        </activity>
-34        <activity
-34-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:25:9-28:20
-35            android:name="com.example.dr_sounds.Registration"
-35-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:26:13-41
-36            android:label="Registration Screen" >
-36-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:27:13-48
-37        </activity>
-38        <activity
-38-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:29:9-32:20
-39            android:name="com.example.dr_sounds.UserSelection"
-39-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:30:13-42
-40            android:label="User selection Screen" >
-40-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:31:13-50
-41        </activity>
-42        <activity
-42-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:33:9-36:20
-43            android:name="com.example.dr_sounds.doctorpage"
-43-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:34:13-39
-44            android:label="Doctor dashboard" >
-44-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:35:13-45
-45        </activity>
-46        <activity
-46-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:37:9-39:20
-47            android:name="com.example.dr_sounds.AddFamilyMem"
-47-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:37:19-47
-48            android:label="add family" >
-48-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:38:13-39
-49        </activity>
-50        <activity
-50-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:40:9-42:20
-51            android:name="com.example.dr_sounds.AudioSearch"
-51-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:40:19-46
-52            android:label="audio page" >
-52-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:41:13-39
-53        </activity>
-54        <activity
-54-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:43:9-44:53
-55            android:name="com.example.dr_sounds.Patient_login"
-55-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:43:19-48
-56            android:label="patient page" />
-56-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:44:13-41
-57        <activity
-57-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:45:9-47:20
-58            android:name="com.example.dr_sounds.prescription"
-58-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:45:19-47
-59            android:label="prescription page" >
-59-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:46:13-46
-60        </activity>
-61        <activity
-61-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:48:9-50:20
-62            android:name="com.example.dr_sounds.EndScreen"
-62-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:48:19-44
-63            android:label="End Screen" >
-63-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:49:13-39
-64        </activity>
-65        <activity
-65-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:51:9-53:20
-66            android:name="com.example.dr_sounds.PatientDashboard"
-66-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:51:19-51
-67            android:label="User DashBoard" >
-67-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:52:13-43
-68        </activity>
-69        <activity
-69-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:54:9-56:20
-70            android:name="com.example.dr_sounds.AudioRecord"
-70-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:54:19-46
-71            android:label="Audio Recording" >
-71-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:55:13-44
-72        </activity>
-73    </application>
-74
-75</manifest>
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity android:name="com.example.dr_sounds.ChooseUser" >
+22-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:14:9-20:20
+22-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:14:19-45
+23            <intent-filter>
+23-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:15:13-19:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:16:17-69
+24-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:16:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:18:17-77
+26-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:18:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity
+29-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:21:9-24:20
+30            android:name="com.example.dr_sounds.DoctorInitLogin"
+30-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:22:13-44
+31            android:label="Doctor_Screen" >
+31-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:23:13-42
+32        </activity>
+33        <activity
+33-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:25:9-28:20
+34            android:name="com.example.dr_sounds.Registration"
+34-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:26:13-41
+35            android:label="Registration Screen" >
+35-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:27:13-48
+36        </activity>
+37        <activity
+37-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:29:9-32:20
+38            android:name="com.example.dr_sounds.UserSelection"
+38-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:30:13-42
+39            android:label="User selection Screen" >
+39-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:31:13-50
+40        </activity>
+41        <activity
+41-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:33:9-36:20
+42            android:name="com.example.dr_sounds.doctorpage"
+42-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:34:13-39
+43            android:label="Doctor dashboard" >
+43-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:35:13-45
+44        </activity>
+45        <activity
+45-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:37:9-39:20
+46            android:name="com.example.dr_sounds.AddFamilyMem"
+46-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:37:19-47
+47            android:label="add family" >
+47-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:38:13-39
+48        </activity>
+49        <activity
+49-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:40:9-42:20
+50            android:name="com.example.dr_sounds.AudioSearch"
+50-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:40:19-46
+51            android:label="audio page" >
+51-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:41:13-39
+52        </activity>
+53        <activity
+53-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:43:9-44:53
+54            android:name="com.example.dr_sounds.Patient_login"
+54-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:43:19-48
+55            android:label="patient page" />
+55-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:44:13-41
+56        <activity
+56-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:45:9-47:20
+57            android:name="com.example.dr_sounds.prescription"
+57-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:45:19-47
+58            android:label="prescription page" >
+58-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:46:13-46
+59        </activity>
+60        <activity
+60-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:48:9-50:20
+61            android:name="com.example.dr_sounds.EndScreen"
+61-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:48:19-44
+62            android:label="End Screen" >
+62-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:49:13-39
+63        </activity>
+64        <activity
+64-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:51:9-53:20
+65            android:name="com.example.dr_sounds.PatientDashboard"
+65-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:51:19-51
+66            android:label="User DashBoard" >
+66-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:52:13-43
+67        </activity>
+68        <activity
+68-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:54:9-56:20
+69            android:name="com.example.dr_sounds.AudioRecord"
+69-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:54:19-46
+70            android:label="Audio Recording" >
+70-->C:\Users\Abele\Documents\android_projects\github_projects\dr_sound\Team5\dr_sounds\app\src\main\AndroidManifest.xml:55:13-44
+71        </activity>
+72    </application>
+73
+74</manifest>
