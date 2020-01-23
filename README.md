@@ -13,4 +13,4 @@ basically associate said profile to that sound. This will be done
 using Microsoft's Speaker Recognition API.
 
 Here is a brief flowchart showcasing how to navigate through this app. 
-![Flowchart](C:\Users\Abele\Downloads\team_5_ui_flowchart.PNG)
+![Flowchart](dr_sounds/team_5_ui_flowchart)
